@@ -73,7 +73,7 @@ img{
     font-weight: bold;
 }
 
-.fr{
+.fr, .l, .t, .i{
     display: flex;
     background-color: var(--Grey-700);
     border-radius: 10px;
@@ -86,74 +86,7 @@ img{
     font-weight: bold;
 }
 
-.l{
-    display: flex;
-    background-color: var(--Grey-700);
-    height: 40px;
-    width: 270px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    color: var(--White);
-    font-weight: bold;
-}
-
-.t{
-    display: flex;
-    background-color: var(--Grey-700);
-    height: 40px;
-    width: 270px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    color: var(--White);
-    font-weight: bold;
-}
-
-.i{
-    display: flex;
-    background-color: var(--Grey-700);
-    height: 40px;
-    width: 270px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    color: var(--White);
-    font-weight: bold;
-}
-
-.g:hover{
-    background-color: var(--Green);
-    cursor: pointer;
-    color: var(--Grey-900);
-    font-weight: bold;
-}
-
-.fr:hover{
-    background-color: var(--Green);
-    cursor: pointer;
-    color: var(--Grey-900);
-    font-weight: bold;
-}
-
-.l:hover{
-    background-color: var(--Green);
-    cursor: pointer;
-    color: var(--Grey-900);
-    font-weight: bold;
-}
-
-.t:hover{
-    background-color: var(--Green);
-    cursor: pointer;
-    color: var(--Grey-900);
-    font-weight: bold;
-}
-
-.i:hover{
+.g:hover, .fr:hover, .l:hover, .t:hover, .i:hover{
     background-color: var(--Green);
     cursor: pointer;
     color: var(--Grey-900);
@@ -222,7 +155,7 @@ img{
         font-weight: bold;
     }
     
-    .fr{
+    .fr, .l, .t, .i{
         display: flex;
         background-color: var(--Grey-700);
         border-radius: 10px;
@@ -235,74 +168,7 @@ img{
         font-weight: bold;
     }
     
-    .l{
-        display: flex;
-        background-color: var(--Grey-700);
-        height: 40px;
-        width: 270px;
-        border-radius: 10px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
-        color: var(--White);
-        font-weight: bold;
-    }
-    
-    .t{
-        display: flex;
-        background-color: var(--Grey-700);
-        height: 40px;
-        width: 270px;
-        border-radius: 10px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
-        color: var(--White);
-        font-weight: bold;
-    }
-    
-    .i{
-        display: flex;
-        background-color: var(--Grey-700);
-        height: 40px;
-        width: 270px;
-        border-radius: 10px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
-        color: var(--White);
-        font-weight: bold;
-    }
-    
-    .g:hover{
-        background-color: var(--Green);
-        cursor: pointer;
-        color: var(--Grey-900);
-        font-weight: bold;
-    }
-    
-    .fr:hover{
-        background-color: var(--Green);
-        cursor: pointer;
-        color: var(--Grey-900);
-        font-weight: bold;
-    }
-    
-    .l:hover{
-        background-color: var(--Green);
-        cursor: pointer;
-        color: var(--Grey-900);
-        font-weight: bold;
-    }
-    
-    .t:hover{
-        background-color: var(--Green);
-        cursor: pointer;
-        color: var(--Grey-900);
-        font-weight: bold;
-    }
-    
-    .i:hover{
+    .g:hover, .fr:hover, .l:hover, .t:hover, .i:hover{
         background-color: var(--Green);
         cursor: pointer;
         color: var(--Grey-900);
